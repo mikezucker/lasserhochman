@@ -1,0 +1,290 @@
+[
+  {
+    "slug": "guryan",
+    "name": "Sheppard A. Guryan",
+    "position": "Member",
+    "image": "/images/sheppard-a-guryan.jpg",
+    "email": "SGuryan@LasserHochman.com",
+    "bio": "",
+    "fields": {
+      "Bar Admission": ["New Jersey (1967); New York (1981)."],
+      "Practice Areas": [
+        "Complex Commercial Business Litigation;",
+        "Real Property Litigation;",
+        "Bankruptcy;",
+        "Real Estate Restructure and Reorganization."
+      ],
+      "Member": [
+        "New Jersey State Bar Association;",
+        "The Association of the Federal Bar of the State of New Jersey."
+      ],
+      "Education": [
+        "Rutgers University (B.A., 1964), Henry Rutgers Scholar;",
+        "Cornell Law School (LL.B., 1967), Phi Delta Phi;",
+        "Law Secretary, Honorable Harold A. Ackerman, Superior Court of New Jersey, Law Division, 1967-1968."
+      ]
+    },
+    "source": "https://www.lasserhochman.com/guryan"
+  },
+  {
+    "slug": "zucker",
+    "name": "Richard L. Zucker",
+    "position": "Member",
+    "image": "/images/richard-l-zucker.jpg",
+    "email": "RZucker@LasserHochman.com",
+    "bio": "",
+    "fields": {
+      "Bar Admission": [
+        "New Jersey (1969); U.S. Supreme Court (1980); New York (1981); United States Court of Appeals for the Third Circuit (1983)."
+      ],
+      "Member": [
+        "District VC (Essex County [West Essex]) Ethics Committee, 1986-1989;",
+        "Essex County and New Jersey State Bar Associations."
+      ],
+      "Practice Areas": [
+        "Commercial Real Estate;",
+        "Business Litigation;",
+        "Creditors' Rights in Bankruptcy and Insolvency Proceedings."
+      ],
+      "Education": [
+        "Columbia College (B.A., 1966);",
+        "Boston University School of Law (J.D., 1969);",
+        "Law Secretary to Honorable John A. Ackerman, Judge, New Jersey Superior Court, Law Division, 1969-1970."
+      ]
+    },
+    "source": "https://www.lasserhochman.com/zucker"
+  },
+  {
+    "slug": "silver",
+    "name": "David Silver",
+    "position": "Member",
+    "image": "/images/david-silver.jpg",
+    "email": "DSilver@LasserHochman.com",
+    "bio": "",
+    "fields": {
+      "Bar Admission": ["New Jersey (1977);", "New York (2017)."],
+      "Author": [
+        "Article, \"Computing State Death Tax Credit Exemption Equivalent\", 59 Journal of Taxation 287, 1983."
+      ],
+      "Practice Areas": [
+        "Business;",
+        "Estate Planning and Administration;",
+        "Taxation."
+      ],
+      "Education": [
+        "University of Virginia (B.A., with honors, 1974);",
+        "Rutgers Law School (J.D., 1977);",
+        "New York University (LL.M., in Taxation, 1981)."
+      ]
+    },
+    "source": "https://www.lasserhochman.com/silver"
+  },
+  {
+    "slug": "stewart",
+    "name": "Richard C. Stewart",
+    "position": "Member",
+    "image": "/images/richard-c-stewart.jpg",
+    "email": "RStewart@LasserHochman.com",
+    "bio": "",
+    "fields": {
+      "Bar Admission": [
+        "New York (1986);",
+        "District of Columbia, New Jersey and U.S. District Court, District of New Jersey (1987)."
+      ],
+      "Member": ["New Jersey State Bar Association."],
+      "Practice Areas": [
+        "Real Estate Law;",
+        "Land Use Law;",
+        "Real Property Tax Appeals;",
+        "Commercial Transactions."
+      ],
+      "Education": [
+        "Loyola University Maryland (B.A., cum laude, 1982);",
+        "Pace University (J.D., 1985);",
+        "Recipient, American Jurisprudence Award."
+      ]
+    },
+    "source": "https://www.lasserhochman.com/stewart"
+  },
+  {
+    "slug": "kipnees",
+    "name": "Helane A. Kipnees",
+    "position": "Member",
+    "image": "/images/helane-a-kipnees.jpg",
+    "email": "HKipnees@LasserHochman.com",
+    "bio": "Helane's practice is focused on a variety of real estate and finance related issues.  She advises real estate owners on purchase, sale, leasing, and financing matters, and the formation of commercial condominium projects.  She also represents lending institutions in commercial loan transactions.",
+    "fields": {
+      "Bar Admission": ["New Jersey (1980)."],
+      "Practice Areas": ["Real Estate Transactions."],
+      "Member": ["New Jersey State Bar Association."],
+      "Education": [
+        "Cornell University (B.A., 1977);",
+        "Boston University, School of Law (J.D., 1980).",
+        "Member Mortar Board."
+      ]
+    },
+    "source": "https://www.lasserhochman.com/kipnees"
+  },
+  {
+    "slug": "konzelman",
+    "name": "Gregory P. Konzelman",
+    "position": "Member",
+    "image": "/images/gregory-p-konzelman.jpg",
+    "email": "GPK@LasserHochman.com",
+    "bio": "",
+    "fields": {
+      "Bar Admission": ["New York (1979);", "New Jersey (1981)."],
+      "Other": ["New Jersey State Bar Association."],
+      "Practice Areas": ["Commercial Real Estate Transactions."],
+      "Education": [
+        "St. Peter's College (B.A., 1975);",
+        "New York Law School (J.D.,1979)."
+      ]
+    },
+    "source": "https://www.lasserhochman.com/konzelman"
+  },
+  {
+    "slug": "bibergal",
+    "name": "Daniel Bibergal",
+    "position": "Member",
+    "image": "/images/daniel-bibergal.jpg",
+    "email": "DBibergal@LasserHochman.com",
+    "bio": "",
+    "fields": {
+      "Bar Admission": ["New Jersey (2002)."],
+      "Education": [
+        "Rutgers College (B.A., 1997);",
+        "George Washington University Law School (J.D., 2001)."
+      ],
+      "Practice Areas": ["Commercial Real Estate Transactions."]
+    },
+    "source": "https://www.lasserhochman.com/bibergal"
+  },
+  {
+    "slug": "cowell",
+    "name": "Maryjane D. Cowell",
+    "position": "Associate",
+    "image": "/images/maryjane-d-cowell.jpg",
+    "email": "MCowell@LasserHochman.com",
+    "bio": "",
+    "fields": {
+      "Bar Admission": [
+        "New Jersey, Pennsylvania and U.S. District Court, District of New Jersey (1987)."
+      ],
+      "Professional Experience": [
+        "Law Secretary, Honorable Edward W. McGrath, Superior Court of New Jersey, Law Division, 1987-1988."
+      ],
+      "Practice Areas": ["Estate Administration."],
+      "Education": [
+        "Douglass College of Rutgers University (B.A. with High Honors, 1984), Phi Beta Kappa;",
+        "Seton Hall Law School (J.D., 1987)."
+      ]
+    },
+    "source": "https://www.lasserhochman.com/cowell"
+  },
+  {
+    "slug": "shore",
+    "name": "Ryan S. Shore",
+    "position": "Associate",
+    "image": "/images/ryan-s-shore.jpeg",
+    "email": "rshore@lasserhochman.com",
+    "bio": "",
+    "fields": {
+      "Bar Admission": ["New Jersey (2024);", "New York (2024)."],
+      "Practice Areas": [
+        "Commercial Real Estate Transactions",
+        "Leasing",
+        "Real Estate Finance"
+      ],
+      "Education": [
+        "Yeshiva University (B.A., 2018);",
+        "Brooklyn Law School (J.D., 2022)."
+      ]
+    },
+    "source": "https://www.lasserhochman.com/shore"
+  },
+  {
+    "slug": "brown",
+    "name": "Robert K. Brown",
+    "position": "Of Counsel",
+    "image": "/images/robert-k-brown.jpg",
+    "email": "RBrown@LasserHochman.com",
+    "bio": "Mr. Brown specializes in Real Estate Law, Industrial and Office Leasing, Financing Law, Municipal and Land Use Law. Prior to coming to the firm, he practiced for many years with Epstein, Brown & Gioia, LLC.",
+    "fields": {
+      "Member": [
+        "Union County, New Jersey State, and American Bar Associations;",
+        "New Jersey and National Chapters of the National Association of Industrial and Office Parks"
+      ],
+      "Bar Admission": ["New Jersey (1980)."],
+      "Practice Areas": ["Real Estate; Finance; Municipal and Land Use."],
+      "Education": [
+        "Seton Hall University (J.D., 1980);",
+        "Union College (B.A., 1975)."
+      ]
+    },
+    "source": "https://www.lasserhochman.com/brown"
+  },
+  {
+    "slug": "sprouls",
+    "name": "Patrick B. Sprouls",
+    "position": "Of Counsel",
+    "image": "/images/patrick-b-sprouls.jpg",
+    "email": "PSprouls@LasserHochman.com",
+    "bio": "",
+    "fields": {
+      "Bar Admission": ["New Jersey (1980);", "New York (1980)."],
+      "Practice Areas": ["Commercial Real Estate"],
+      "Education": [
+        "Seton Hall Law School (J.D. 1980);",
+        "Georgetown University (B.A. 1975)."
+      ]
+    },
+    "source": "https://www.lasserhochman.com/sprouls"
+  },
+  {
+    "slug": "snyder",
+    "name": "Bruce H. Snyder",
+    "position": "Of Counsel",
+    "image": "/images/bruce-h-snyder.jpg",
+    "email": "BSnyder@LasserHochman.com",
+    "bio": "",
+    "fields": {
+      "Bar Admission": ["New Jersey (1977)."],
+      "Other": [
+        "New Jersey State Bar Association;",
+        "Managing Editor, Rutgers Law Review, 1976-1977."
+      ],
+      "Practice Areas": [
+        "Complex Litigation;",
+        "Commercial and Real Property;",
+        "Land Use Law."
+      ],
+      "Professional Experience": [
+        "Law Secretary, Honorable Harold A. Ackerman, Superior Court of New Jersey, Chancery Division, 1977-1978."
+      ],
+      "Education": [
+        "Princeton University (A. B., magna cum laude, in Politics, 1974);",
+        "Rutgers Law School (J.D., with honors, 1977)."
+      ]
+    },
+    "source": "https://www.lasserhochman.com/snyder"
+  },
+  {
+    "slug": "agins",
+    "name": "Rand M. Agins",
+    "position": "Of Counsel",
+    "image": "/images/rand-m-agins.jpg",
+    "email": "RAgins@LasserHochman.com",
+    "bio": "Rand represents owners and developers in a wide range of real estate matters, including, acquisitions and dispositions; retail, office and industrial leases and ground leases; preparation, negotiation and closing of construction and permanent loans; and preparation and negotiation of partnership and operating agreements. He counsels clients on the structuring and documenting of real estate transactions, coordinates due diligence, and manages all aspects of the transaction through the closing.",
+    "fields": {
+      "Bar Admission": ["Pennsylvania (1974);", "New Jersey (1975)."],
+      "Practice Areas": ["Commercial Real Estate;", "Real Estate Finance."],
+      "Member": [
+        "Essex County Bar Association;",
+        "New Jersey State Bar Association."
+      ],
+      "Education": ["University of Pennsylvania (B.A., 1971; J.D., 1974)."]
+    },
+    "source": "https://www.lasserhochman.com/agins"
+  }
+]

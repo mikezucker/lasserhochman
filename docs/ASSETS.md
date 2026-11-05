@@ -1,0 +1,7 @@
+# Asset provenance
+
+- `public/images/architecture.jpg`: Sean Pollock, glass office towers, https://images.unsplash.com/photo-1486406146926-c627a92ad1ab (downloaded November 5, 2026). General architectural imagery; it is not the firm's office. Used under the [Unsplash License](https://unsplash.com/license), which permits commercial downloading and use. Photographer/source mapping is corroborated by https://github.com/AmarjithTK/innovateX/blob/master/LICENSE.md. No AI-generated firm building or portraits are used.
+- Attorney portraits: downloaded from the `images/` paths in each verified live biography; exact paths are in `src/data/attorneys.json`. Firm-supplied existing website assets, pending final rights confirmation.
+- `source-aboutus.jpg`: existing `/images/aboutus.jpg`, architectural artwork visibly signed Aaron Lasser, 1959. Original source: https://www.lasserhochman.com/about. Used only in the firm history page; rights confirmation remains a prelaunch item.
+- Newsreader (regular/italic variable) and Manrope (variable): Google Fonts official repository, `ofl/newsreader` and `ofl/manrope`. SIL Open Font License texts are included in `public/fonts/`. Latin subsets are compressed to WOFF2, with the Newsreader optical size fixed at 48 and variable weights retained. Served locally by `next/font/local`; no runtime Google Fonts calls.
+- Open Graph graphic and favicon are original code-generated typography, with no external asset dependency.
