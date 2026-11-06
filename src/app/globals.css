@@ -59,6 +59,10 @@ h2 {
 em {
   font-weight: 350;
 }
+em,
+i {
+  color: var(--gold);
+}
 p {
   color: var(--muted);
 }
@@ -426,9 +430,6 @@ main:focus {
 .intro h2 {
   font-size: clamp(32px, 3.1vw, 47px);
   line-height: 1.2;
-}
-.intro h2 em {
-  color: #6b737b;
 }
 .intro-bottom {
   display: flex;

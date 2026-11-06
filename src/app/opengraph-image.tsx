@@ -29,7 +29,9 @@ export default function Image() {
         }}
       >
         <span>Sophisticated Counsel.</span>
-        <span style={{ fontStyle: "italic" }}>Personal Attention.</span>
+        <span style={{ fontStyle: "italic", color: "#B99755" }}>
+          Personal Attention.
+        </span>
       </div>
       <div
         style={{
