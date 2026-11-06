@@ -1,0 +1,20 @@
+.address {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.address .icon {
+  margin-top: 4px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  color: var(--gold);
+  flex-shrink: 0;
+}

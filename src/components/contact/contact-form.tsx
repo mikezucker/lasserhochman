@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, MessageSquare } from "lucide-react";
 import { useRef, useState, useSyncExternalStore } from "react";
 import { firm } from "@/data/firm";
 import styles from "./contact-form.module.css";
@@ -20,7 +20,16 @@ export function ContactForm() {
   return (
     <div className={styles.panel}>
       <p className="eyebrow">Start a conversation</p>
-      <h2>How can we help?</h2>
+      <div className={styles.heading}>
+        <MessageSquare
+          className={styles.icon}
+          size={30}
+          strokeWidth={1.4}
+          aria-hidden="true"
+          focusable="false"
+        />
+        <h2>How can we help?</h2>
+      </div>
       <p id="contact-preview-note" className={styles.notice}>
         Prototype preview — this form does not send messages. To contact the
         firm, please call <a href={`tel:${firm.telephone}`}>{firm.phone}</a>.

@@ -1,3 +1,5 @@
+import { MapPin, Phone, Printer } from "lucide-react";
+import styles from "./contact.module.css";
 import { ContactForm } from "@/components/contact/contact-form";
 import Link from "next/link";
 import { PageHeading } from "@/components/ui/page-heading";
@@ -21,17 +23,44 @@ export default function Contact() {
         <div>
           <p className="eyebrow">Roseland, New Jersey</p>
           <h2>Lasser Hochman, LLC</h2>
-          <address>
-            {firm.street}
-            <br />
-            {firm.city}
+          <address className={styles.address}>
+            <MapPin
+              className={styles.icon}
+              size={22}
+              strokeWidth={1.4}
+              aria-hidden="true"
+              focusable="false"
+            />
+            <span>
+              {firm.street}
+              <br />
+              {firm.city}
+            </span>
           </address>
           <dl>
-            <dt>Telephone</dt>
+            <dt className={styles.label}>
+              <Phone
+                className={styles.icon}
+                size={17}
+                strokeWidth={1.4}
+                aria-hidden="true"
+                focusable="false"
+              />
+              Telephone
+            </dt>
             <dd>
               <a href={`tel:${firm.telephone}`}>{firm.phone}</a>
             </dd>
-            <dt>Fax</dt>
+            <dt className={styles.label}>
+              <Printer
+                className={styles.icon}
+                size={17}
+                strokeWidth={1.4}
+                aria-hidden="true"
+                focusable="false"
+              />
+              Fax
+            </dt>
             <dd>{firm.fax}</dd>
           </dl>
           <a
