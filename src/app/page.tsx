@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { HeroVideo } from "@/components/home/hero-video";
 import Link from "next/link";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
 import { metadata as buildMetadata } from "@/lib/seo";
@@ -39,14 +40,7 @@ export default function Home() {
         </div>
         <div className="hero-visual">
           <div className="hero-image">
-            <Image
-              src="/images/architecture.jpg"
-              alt="Looking upward along the clean lines of glass office towers"
-              fill
-              preload
-              sizes="(max-width: 700px) 100vw, 44vw"
-              quality={85}
-            />
+            <HeroVideo />
           </div>
           <div className="image-note">
             <span>

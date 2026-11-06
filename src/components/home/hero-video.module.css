@@ -1,0 +1,44 @@
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 48% 50%;
+  filter: saturate(0.45);
+  opacity: 0;
+  transition: opacity 800ms ease;
+  pointer-events: none;
+}
+
+.ready {
+  opacity: 1;
+}
+
+.toggle {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgb(255 255 255 / 35%);
+  background: rgb(8 24 39 / 65%);
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .video {
+    object-position: 50% 56%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .video,
+  .toggle {
+    display: none;
+    transition: none;
+  }
+}
