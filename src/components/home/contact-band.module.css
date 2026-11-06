@@ -1,0 +1,25 @@
+.eyebrow,
+.address {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.eyebrow {
+  align-items: center;
+}
+
+.address .icon {
+  margin-top: 3px;
+}
+
+.phone:global(.contact-phone) {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  color: var(--gold);
+  flex-shrink: 0;
+}

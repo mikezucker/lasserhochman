@@ -477,7 +477,7 @@ main:focus {
 }
 .practice-row {
   display: grid;
-  grid-template-columns: 25px 1fr 22px;
+  grid-template-columns: 30px minmax(0, 1fr) 22px;
   gap: 20px;
   align-items: center;
   border-bottom: 1px solid #d3d6d3;
@@ -489,11 +489,10 @@ main:focus {
 .practice-list > div:first-child .practice-row {
   border-top: 1px solid #d3d6d3;
 }
-.practice-number {
-  font-size: 9px;
-  color: #737c81;
+.practice-icon {
+  color: var(--gold);
   align-self: start;
-  padding-top: 5px;
+  margin-top: 2px;
 }
 .practice-row h3 {
   font-size: 26px;
@@ -503,10 +502,10 @@ main:focus {
   font-size: 10px;
   margin-top: 6px;
 }
-.practice-row svg {
+.practice-row > svg:last-child {
   transition: transform 0.2s;
 }
-.practice-row:hover svg {
+.practice-row:hover > svg:last-child {
   transform: translate(3px, -3px);
 }
 .practice-row:hover {
@@ -1376,7 +1375,7 @@ main:focus {
     display: none;
   }
   .practice-row {
-    grid-template-columns: 20px 1fr 20px;
+    grid-template-columns: 30px minmax(0, 1fr) 20px;
     gap: 12px;
     padding-block: 24px;
   }

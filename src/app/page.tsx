@@ -1,3 +1,4 @@
+import { PracticeIcon } from "@/components/ui/practice-icon";
 import { FeaturedAttorneys } from "@/components/home/featured-attorneys";
 import { HeroVideo } from "@/components/home/hero-video";
 import heroStyles from "@/components/home/cinematic-hero.module.css";
@@ -103,10 +104,10 @@ export default function Home() {
             </div>
           </Reveal>
           <div className="practice-list">
-            {practices.map((p, i) => (
+            {practices.map((p) => (
               <Reveal key={p.slug}>
                 <Link href={`/practice/${p.slug}`} className="practice-row">
-                  <span className="practice-number">0{i + 1}</span>
+                  <PracticeIcon slug={p.slug} className="practice-icon" />
                   <div>
                     <h3>{p.name}</h3>
                     <p>{p.short}</p>
@@ -175,7 +176,7 @@ export default function Home() {
           </Reveal>
         </div>
       </section>
-      <ContactBand />
+      <ContactBand showIcons />
     </>
   );
 }
