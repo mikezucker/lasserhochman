@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 import { indexingAllowed } from "./src/lib/indexing.mjs";
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  images: { qualities: [75, 85] },
   turbopack: { root: process.cwd() },
   async headers() {
     return [

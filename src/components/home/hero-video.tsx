@@ -117,15 +117,17 @@ export function HeroVideo() {
 
   return (
     <>
-      <Image
-        className={styles.poster}
-        src={poster}
-        alt="New Jersey waterfront skyline silhouetted against the setting sun"
-        fill
-        preload
-        sizes="100vw"
-        quality={85}
-      />
+      <div className={styles.posterFrame}>
+        <Image
+          className={styles.poster}
+          src={poster}
+          alt="New Jersey waterfront skyline silhouetted against the setting sun"
+          fill
+          preload
+          sizes="100vw"
+          quality={85}
+        />
+      </div>
       <video
         ref={videoRef}
         className={`${styles.video} ${ready ? styles.ready : ""}`}
