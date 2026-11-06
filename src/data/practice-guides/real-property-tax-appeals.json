@@ -1,0 +1,96 @@
+{
+  "introduction": [
+    "A property tax assessment can have a meaningful effect on the cost of owning, operating, or investing in New Jersey real estate. An appeal examines whether the assessment is legally supportable for the tax year at issue. The question is not simply whether the tax bill feels high, but whether the evidence supports changing the assessed value under the applicable rules.",
+    "For an income-producing property, that inquiry may require a careful look at leases, operating information, physical condition, and market evidence. For other properties, comparable sales and property characteristics may be central. Understanding the relationship between an assessment and market value helps an owner decide whether an appeal warrants further investigation."
+  ],
+  "concepts": [
+    {
+      "title": "Assessment, market value, and the tax bill",
+      "text": "An assessment is the value assigned to property for taxation. Market value concerns what the property would command in an appropriate market transaction. The tax bill also reflects the tax rate, so a higher bill alone does not establish an excessive assessment. Applicable assessment ratios and valuation dates must be considered before drawing a conclusion."
+    },
+    {
+      "title": "Evidence matters more than comparisons between bills",
+      "text": "Another owner’s lower tax bill is not, by itself, a valuation analysis. Differences in use, location, condition, income, and assessment treatment can matter. A useful review separates reliable evidence from assumptions and considers both favorable and unfavorable information before a filing decision."
+    }
+  ],
+  "services": [
+    {
+      "title": "Real property tax appeals",
+      "text": "An assessment challenge involves evaluating the property, identifying the correct forum and filing requirements, and presenting support for the requested valuation. Representation may be appropriate when an owner believes the assessment exceeds a supportable value, receives an assessment after a property change, or needs help evaluating competing valuation evidence."
+    },
+    {
+      "title": "Local and state real estate tax issues",
+      "text": "Property-related tax questions may arise during ownership, acquisition, or disposition. Reviewing the assessment history and relevant tax documents can help identify issues that affect a transaction or ongoing ownership. A question about the assessed value may require an appeal; a different tax issue may call for separate analysis rather than the same proceeding."
+    }
+  ],
+  "scenarios": [
+    {
+      "title": "An income-producing property faces changing conditions",
+      "text": "An office owner experiences vacancies and receives an assessment that appears disconnected from current market conditions. Counsel and a valuation professional may examine which income and market information is relevant to the applicable valuation date before deciding whether an appeal is supportable."
+    },
+    {
+      "title": "A buyer reviews the cost of ownership",
+      "text": "A purchaser comparing commercial properties wants to understand the assessment history alongside insurance, maintenance, and financing costs. Legal review can distinguish a possible assessment issue from the wider financial assumptions in the acquisition."
+    },
+    {
+      "title": "An assessment changes after improvements",
+      "text": "An owner receives a new assessment following building work. Reviewing the notice promptly helps identify what has been assessed, which procedures apply, and what evidence should be gathered. The existence of an increase does not establish that an appeal will succeed."
+    }
+  ],
+  "process": [
+    {
+      "title": "Review the notice and property records",
+      "text": "Identify the owner, tax year, assessment, property characteristics, and relevant notices. Check the applicable filing deadline and forum promptly; different assessment events can follow different procedures."
+    },
+    {
+      "title": "Evaluate valuation and practical considerations",
+      "text": "Review market information and, where appropriate, obtain appraisal input. Compare the potential benefit with legal and expert costs, the strength of the evidence, and the risks of contesting the assessment."
+    },
+    {
+      "title": "File and prepare the matter",
+      "text": "If an appeal is appropriate, prepare the required filing and service, assemble supporting materials, and address applicable information requests. Filing an appeal does not eliminate separate tax-payment obligations."
+    },
+    {
+      "title": "Consider resolution or a hearing",
+      "text": "The parties may discuss settlement or present evidence at a hearing. Review the resulting determination and any further review options with counsel; an assessment reduction or other favorable result is never assured."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I appeal because my New Jersey property taxes went up?",
+      "answer": "An increase is a reason to review the assessment, but is not proof that it is incorrect. Counsel can examine the assigned value, the applicable valuation framework, and supporting market evidence. A change in the tax rate is a different issue from a change in assessed value."
+    },
+    {
+      "question": "When should I ask about a property tax appeal?",
+      "answer": "As soon as you receive a notice or identify a possible assessment issue. New Jersey filing rules vary with the kind of assessment and proceeding. Do not assume a deadline from a prior year or another property applies, and do not wait for informal discussions to conclude before checking it."
+    },
+    {
+      "question": "Do I need an appraisal?",
+      "answer": "That depends on the property, forum, and disputed issues. Commercial or unusual properties may require expert valuation evidence. An initial legal review can help determine whether an appraisal is appropriate and what questions it should address before that expense is incurred."
+    },
+    {
+      "question": "Can my company handle an appeal without an attorney?",
+      "answer": "Representation requirements depend on the proceeding and the owner’s legal form. The New Jersey Tax Court’s guidance requires entities other than sole proprietors, including corporations and trusts, to have New Jersey counsel. Confirm the requirements for the particular forum rather than assuming an owner can appear personally for an entity."
+    },
+    {
+      "question": "Does filing an appeal let me stop paying property taxes?",
+      "answer": "Do not treat an appeal as permission to withhold payment. Payment requirements can affect the ability to pursue a matter. Review the current rules and your account status with counsel while the assessment challenge is being considered."
+    },
+    {
+      "question": "What should I bring to an initial discussion?",
+      "answer": "Bring assessment notices, recent tax bills, prior appeal decisions, ownership information, and any appraisals or recent purchase documents. For income-producing property, leases, rent rolls, and operating information may also help counsel identify what further evidence is needed."
+    }
+  ],
+  "related": ["real-estate", "taxation"],
+  "sources": [
+    {
+      "label": "New Jersey Courts: local property tax appeal handbook",
+      "url": "https://www.njcourts.gov/sites/default/files/forms/10190_small_claims_booklet.pdf"
+    },
+    {
+      "label": "New Jersey Courts: Tax Court rules handbook",
+      "url": "https://www.njcourts.gov/sites/default/files/forms/10194_rules_handbook.pdf"
+    }
+  ],
+  "reviewStatus": "Attorney review required before publication"
+}

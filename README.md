@@ -29,7 +29,7 @@ node scripts/check-routes.mjs
 
 - `src/app/`: homepage, firm, directory, existing-root attorney slugs, practice overview/details, contact, draft privacy, sitemap, robots, social graphic, favicon, and 404.
 - `src/components/`: shared layout, homepage contact band, links, heading/breadcrumbs, and lightweight progressive scroll reveal.
-- `src/data/`: firm details, typed attorney data, and service content. Content can later move to a CMS without redesigning page templates.
+- `src/data/`: firm details, typed attorney data, and service content. Expanded practice guides are individually editable in `src/data/practice-guides/`; see `docs/PRACTICE-CONTENT-REVIEW.md` for sources and attorney review status. Content can later move to a CMS without redesigning page templates.
 - `src/lib/`: metadata, JSON-LD, and the fail-closed indexing policy.
 - `public/`: local portraits, architecture, history artwork, fonts and their licenses.
 - `research/`: primary-source HTML evidence. `scripts/import-research.py` documents the one-time legacy profile import; do not rerun after hand-editing attorney data without review.

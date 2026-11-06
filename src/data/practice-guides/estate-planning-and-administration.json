@@ -1,0 +1,112 @@
+{
+  "introduction": [
+    "Estate planning addresses how property should be managed and passed on, while estate administration carries out the responsibilities that arise after a person’s death. Both involve legal documents, family relationships, ownership arrangements, and financial information. A clear plan can help communicate intentions; careful administration helps those responsible understand the work that follows.",
+    "For individuals and families in New Jersey, the right approach depends on the assets involved, the intended beneficiaries, and the people who will take responsibility. Planning is not simply a question of the size of an estate. It is also an opportunity to consider how instructions, account arrangements, and fiduciary appointments fit together, and where uncertainty could place a burden on others."
+  ],
+  "concepts": [
+    {
+      "title": "A will, a trust, and asset ownership serve different purposes",
+      "text": "A will directs the disposition of property governed by it after death. A trust provides a framework for a trustee to hold or manage property for beneficiaries according to its terms. Joint ownership and beneficiary designations may affect how particular assets pass. These arrangements should be reviewed together rather than assuming one document controls everything."
+    },
+    {
+      "title": "Administration involves duties as well as distribution",
+      "text": "An executor or administrator is responsible for handling estate matters within the authority granted by law and the appointment. The work may include identifying property, maintaining records, addressing claims and taxes, and arranging appropriate distributions. A beneficiary’s expectation of an inheritance does not remove the fiduciary’s obligation to complete necessary administration."
+    }
+  ],
+  "services": [
+    {
+      "title": "Wills",
+      "text": "A will records instructions concerning property within its scope and identifies the person nominated to administer the estate. Legal review may be appropriate when preparing a first will, revising an existing one, or responding to changes in family or financial circumstances. Execution requirements and consistency with other arrangements require attention."
+    },
+    {
+      "title": "Trusts and estates",
+      "text": "A trust can establish how property is held, managed, and distributed under specified terms. Its usefulness depends on the purpose, assets, trustee, and beneficiaries. Counsel may help evaluate whether a trust is suitable and how it fits within the wider estate plan; a trust should not be assumed to produce a particular tax or probate outcome."
+    },
+    {
+      "title": "Estate administration",
+      "text": "Administering an estate involves organizing assets and obligations and carrying out the applicable legal responsibilities. A fiduciary may need assistance understanding authority, identifying required steps, addressing property and tax questions, and keeping a clear record before making distributions."
+    },
+    {
+      "title": "Probate",
+      "text": "Probate concerns establishing a will’s validity through the appropriate legal process. In New Jersey, county Surrogates handle specified uncontested estate applications, including admission of wills and appointment of administrators when there is no will. Legal representation may be useful when the documents, ownership, or required procedure are unclear; contested issues may require a different court process."
+    }
+  ],
+  "scenarios": [
+    {
+      "title": "A family reviews an older plan",
+      "text": "Parents discover that their will was prepared before a significant family or financial change. Reviewing the documents alongside account ownership and beneficiary designations may reveal instructions or appointments that no longer reflect their wishes."
+    },
+    {
+      "title": "A newly appointed executor organizes an estate",
+      "text": "An executor is responsible for a home, investment accounts, and outstanding obligations. Counsel may help distinguish assets requiring estate administration from other transfers and identify the records, filings, and tax questions that need attention."
+    },
+    {
+      "title": "An estate includes a business or real property",
+      "text": "A family must administer an estate that includes an ownership interest in a company or New Jersey property. Estate responsibilities may intersect with operating agreements, financing, valuation, and tax issues, requiring coordinated review before an asset is transferred or sold."
+    }
+  ],
+  "process": [
+    {
+      "title": "For planning: establish goals and gather information",
+      "text": "Identify family circumstances, assets, liabilities, existing documents, and beneficiary arrangements. Discuss the roles of proposed fiduciaries and the practical needs of intended beneficiaries."
+    },
+    {
+      "title": "For planning: prepare and coordinate the documents",
+      "text": "Review the proposed plan, address execution requirements, and consider how the documents interact with property ownership and account designations. Revisit the plan after relevant life or financial changes."
+    },
+    {
+      "title": "For administration: establish authority and organize the estate",
+      "text": "Review the original documents and the appropriate appointment process. Identify estate assets, obligations, interested parties, and recordkeeping needs before taking actions that require fiduciary authority."
+    },
+    {
+      "title": "For administration: address obligations and complete distributions",
+      "text": "Evaluate applicable claims, taxes, and filing requirements, and determine when distributions are appropriate. Maintain a record of receipts, expenses, and transfers. Timing depends on the estate’s circumstances and unresolved matters."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need a will if my estate is relatively modest?",
+      "answer": "The importance of a will is not measured only by asset value. It can communicate distribution instructions and nominate an executor. Whether a particular plan is appropriate depends on ownership, beneficiaries, family circumstances, and other arrangements already in place."
+    },
+    {
+      "question": "Does a will control every asset I own?",
+      "answer": "Not necessarily. An asset may pass under joint ownership, a beneficiary designation, or a trust arrangement rather than the will. Review the title and terms of each significant asset so that the plan’s documents and account arrangements work together."
+    },
+    {
+      "question": "What is the difference between an executor and a trustee?",
+      "answer": "An executor administers an estate under the applicable appointment and law. A trustee administers property held in a trust according to the trust’s terms and applicable duties. One person may hold both roles, but the property and responsibilities associated with each should be distinguished."
+    },
+    {
+      "question": "What happens when someone dies without a will in New Jersey?",
+      "answer": "The estate may require appointment of an administrator, and property subject to intestacy is distributed under statutory rules rather than personal instructions in a will. Which assets are affected and who has priority to act require review of the family circumstances and ownership arrangements."
+    },
+    {
+      "question": "When can an executor distribute the estate?",
+      "answer": "There is no single date that is appropriate for every estate. The fiduciary needs to consider authority, assets, claims, expenses, taxes, and other outstanding responsibilities. Premature distribution can create difficulties if obligations remain. Counsel can help evaluate the steps required before distributions are made."
+    },
+    {
+      "question": "Are New Jersey inheritance tax and federal estate tax the same?",
+      "answer": "No. They are separate tax systems with different rules. New Jersey inheritance tax can depend on the beneficiary’s relationship to the person who died, while federal estate tax concerns transfers at death under federal rules. Filing and transfer requirements should be checked for the particular estate, even when tax is not expected."
+    }
+  ],
+  "related": ["taxation", "corporate-law", "real-estate"],
+  "sources": [
+    {
+      "label": "Monmouth County Surrogate: probate jurisdiction",
+      "url": "https://www.co.monmouth.nj.us/page.aspx?ID=2238"
+    },
+    {
+      "label": "Mercer County Surrogate: probate of wills",
+      "url": "https://www.mercercounty.org/government/county-surrogate/probate-of-wills"
+    },
+    {
+      "label": "New Jersey Division of Taxation: inheritance and estate tax",
+      "url": "https://www.nj.gov/treasury/taxation/inheritance-estate/inheritance.shtml"
+    },
+    {
+      "label": "IRS: estate and gift taxes",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/estate-and-gift-taxes"
+    }
+  ],
+  "reviewStatus": "Attorney review required before publication"
+}

@@ -1,0 +1,108 @@
+{
+  "introduction": [
+    "Real estate decisions connect legal obligations with long-term financial and operational goals. A purchase agreement, lease, or loan document determines more than the terms of a single transaction: it allocates risk, establishes responsibilities, and can shape how a property may be used for years to come. Careful review before a commitment is made can reveal issues that are difficult to address later.",
+    "In New Jersey, a property matter may involve title, existing tenancies, financing conditions, municipal requirements, and state or local tax considerations. Owners, developers, operators, and lenders often need these issues considered together. A transaction that makes commercial sense still requires documents and approvals that reflect how the parties intend it to work."
+  ],
+  "concepts": [
+    {
+      "title": "Due diligence and contractual protection",
+      "text": "Due diligence is the investigation undertaken before committing to or completing a transaction. It can include title, surveys, leases, physical conditions, and permitted uses. The contract should explain what can be investigated, how long that review lasts, and what happens if a significant problem is discovered."
+    },
+    {
+      "title": "Ownership, use, and financing are separate questions",
+      "text": "Owning property does not answer every question about what may be built or operated there. Municipal requirements, private restrictions, existing leases, and lender conditions can each affect a plan. Aligning those requirements early helps avoid a purchase or lease that does not support the intended use."
+    }
+  ],
+  "services": [
+    {
+      "title": "Property acquisition and disposition",
+      "text": "Purchases and sales require clear agreements on price, deposits, contingencies, closing conditions, and responsibility for known risks. Counsel may be appropriate before a letter of intent or contract is signed, particularly where the property has tenants, complex ownership, financing requirements, or unresolved due diligence issues."
+    },
+    {
+      "title": "Leasing",
+      "text": "A commercial lease allocates costs and obligations between landlord and tenant. Beyond rent and term, provisions concerning repairs, operating expenses, permitted use, assignments, guarantees, and default can affect the practical value of the agreement. Representation may help when negotiating a new lease, renewal, expansion, or transfer."
+    },
+    {
+      "title": "Financing",
+      "text": "Real estate financing connects repayment obligations with collateral, guarantees, and conditions on the property or borrower. Reviewing loan documents helps identify ongoing covenants, reporting requirements, default provisions, and closing deliverables. A proposed acquisition, refinance, or construction loan may require coordinated legal and financial review."
+    },
+    {
+      "title": "Zoning and land use",
+      "text": "A proposed development or change of use may require municipal review or approvals. Counsel can help assess the legal requirements alongside the work of planners, engineers, and other professionals. It is useful to address these questions before assuming a property can accommodate a particular project."
+    },
+    {
+      "title": "Local and state tax issues",
+      "text": "Taxes may affect acquisition costs, ownership expenses, or disposition decisions. Legal review can identify property-related tax questions that should be evaluated with accounting and valuation advisers. A concern about the assessed value may also call for the firm’s separate real property tax appeals practice."
+    }
+  ],
+  "scenarios": [
+    {
+      "title": "A business negotiates its next location",
+      "text": "A company plans to lease a larger space and needs to understand build-out responsibility, operating charges, and whether the intended use is permitted. Reviewing these points before signing helps connect the lease to the company’s operational plan."
+    },
+    {
+      "title": "A developer considers a new project",
+      "text": "A developer identifies a site but has not confirmed whether the proposed use or building configuration is permitted. Coordinating contract contingencies with municipal review may help address the risk of purchasing before the necessary approvals are understood."
+    },
+    {
+      "title": "An owner refinances a leased property",
+      "text": "A property owner receives a loan commitment with guarantees and tenant-related conditions. Counsel can review the interaction between existing leases and the proposed financing, including which documents and consents may be needed for closing."
+    }
+  ],
+  "process": [
+    {
+      "title": "Define the transaction",
+      "text": "Identify the parties, ownership structure, intended use, financing, and commercial objectives. Review preliminary commitments and the schedule before binding documents are signed."
+    },
+    {
+      "title": "Negotiate and investigate",
+      "text": "Develop the agreement while examining title, leases, municipal issues, and other due diligence materials. Identify concerns that require additional professional investigation or a change in terms."
+    },
+    {
+      "title": "Coordinate conditions and approvals",
+      "text": "Work through the agreed conditions, lender requirements, and any necessary approvals. Confirm which obligations must be satisfied before closing and which continue afterward."
+    },
+    {
+      "title": "Close and retain the record",
+      "text": "Complete the required documents, funds transfers, and recording arrangements. Retain the closing record and track continuing obligations such as lease dates, loan covenants, and conditions attached to approvals."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "When should an attorney become involved in a commercial purchase?",
+      "answer": "Ideally before signing a binding agreement. Early review allows time to consider contingencies, investigation periods, and the consequences of a failed closing. If a document has already been signed, share it promptly so counsel can assess existing obligations and remaining options."
+    },
+    {
+      "question": "What is the difference between a letter of intent and a contract?",
+      "answer": "A letter of intent often records preliminary commercial terms, but its legal effect depends on its wording and circumstances. Some provisions may be binding even if the larger transaction is still being negotiated. Review confidentiality, exclusivity, deposits, and expense obligations before signing."
+    },
+    {
+      "question": "What should a commercial tenant review beyond the rent?",
+      "answer": "Consider additional charges, maintenance, insurance, permitted use, alterations, renewal options, assignment rights, guarantees, and remedies after default. The importance of each provision depends on the property and business. A low starting rent does not capture the entire cost or risk of occupancy."
+    },
+    {
+      "question": "Does purchasing a property mean I can use it for my business?",
+      "answer": "Not necessarily. Zoning, approvals, private restrictions, leases, and physical conditions may limit the intended use. Investigate these questions during the contractual review period, with appropriate municipal and technical input, rather than relying solely on the seller’s description."
+    },
+    {
+      "question": "Can a real estate transaction create business and tax questions?",
+      "answer": "Yes. Ownership arrangements, financing, guarantees, and the allocation of transaction obligations can overlap with corporate and tax issues. Identifying those connections before documents are finalized allows legal and accounting advisers to evaluate the transaction together."
+    },
+    {
+      "question": "What documents are useful for an initial consultation?",
+      "answer": "Provide the proposed or signed agreement, letter of intent, existing leases, title materials, loan terms, and any municipal notices or approvals. Explain your intended use and important dates. Counsel can then identify the missing information relevant to the particular transaction."
+    }
+  ],
+  "related": ["real-property-tax-appeals", "corporate-law", "litigation"],
+  "sources": [
+    {
+      "label": "New Jersey DCA: local planning and land use resources",
+      "url": "https://nj.gov/dca/dlps/"
+    },
+    {
+      "label": "Business.NJ.gov: commercial leasing guidance",
+      "url": "https://business.nj.gov/pages/leasing-tips"
+    }
+  ],
+  "reviewStatus": "Attorney review required before publication"
+}

@@ -1,0 +1,120 @@
+{
+  "introduction": [
+    "Tax considerations can influence the structure of a business, the timing of a transaction, and the way property is transferred during life or after death. A decision that appears straightforward in commercial or family terms may have different consequences under federal and state rules. Understanding those consequences before a commitment is made allows tax questions to be considered alongside the underlying legal objectives.",
+    "Lasser Hochman’s published practice includes federal and state taxation. This guide explains common points of intersection with business and estate matters; it does not describe every possible tax engagement. The applicable law, relevant tax year, documents, and individual circumstances must be reviewed before advice can be given about a particular situation."
+  ],
+  "concepts": [
+    {
+      "title": "Legal structure and tax treatment are related but distinct",
+      "text": "The legal form of an organization governs aspects of ownership and management, while tax rules determine how income and transactions are reported and taxed. For example, an LLC’s federal tax classification can vary with its ownership and elections. Selecting an entity name or completing formation documents does not by itself answer every tax question."
+    },
+    {
+      "title": "Different taxes can apply to the same decision",
+      "text": "A transaction may require consideration of more than one tax system. Income, transfers during life, and transfers at death involve different questions, and federal treatment does not necessarily resolve state treatment. An analysis should identify which rules apply rather than assume that a favorable answer under one system controls another."
+    },
+    {
+      "title": "Documentation and timing shape the analysis",
+      "text": "Tax consequences can turn on the actual terms of an arrangement, the nature of the property, and when events occur. A useful review starts with the documents and a clear chronology. Changing a plan before it is implemented may offer different options from examining a transaction after it has closed."
+    }
+  ],
+  "services": [
+    {
+      "title": "Federal taxation",
+      "text": "Federal tax questions can arise when forming or changing a business, entering a transaction, or planning a transfer of property. Legal review considers the relevant rules alongside the documents that establish the parties’ rights and obligations. The need for a particular filing, election, or additional adviser depends on the matter and should be confirmed individually."
+    },
+    {
+      "title": "State taxation",
+      "text": "New Jersey tax questions require their own analysis rather than an assumption that federal treatment carries over. Business activities, ownership, property, and the nature of a transfer may be relevant. A state tax issue may arise alongside a business or estate matter even when no immediate federal tax payment is expected."
+    },
+    {
+      "title": "Tax questions within business matters",
+      "text": "Entity selection, changes in ownership, and commercial transactions can connect corporate documents with tax consequences. Reviewing those questions together can help owners evaluate alternatives before signing. This is an intersection of the firm’s published business and taxation practices; the scope of any specific transaction advice must be agreed with the firm."
+    },
+    {
+      "title": "Tax questions within estate planning and administration",
+      "text": "A proposed gift, trust arrangement, or estate distribution can raise tax questions separate from whether the underlying legal transfer is valid. Counsel and accounting advisers may need to coordinate information about ownership, value, beneficiaries, and prior arrangements. Neither a trust nor a will should be assumed to remove tax or reporting obligations."
+    }
+  ],
+  "scenarios": [
+    {
+      "title": "An owner evaluates a business structure",
+      "text": "An entrepreneur compares possible entity arrangements and wants to understand how legal governance and tax classification interact. Reviewing the proposed ownership, business activity, and available elections with legal and accounting advisers can inform the decision."
+    },
+    {
+      "title": "A family considers a transfer of property",
+      "text": "A family plans to give an ownership interest or other asset to the next generation. The legal documents, property value, control retained, and timing may all raise questions to evaluate before the transfer is completed."
+    },
+    {
+      "title": "An executor identifies overlapping tax responsibilities",
+      "text": "An executor handling a New Jersey estate is unsure which tax questions concern the estate and which concern individual beneficiaries. Coordinated review may help identify separate systems, information needs, and transfer requirements without assuming that all taxes follow the same rules."
+    }
+  ],
+  "process": [
+    {
+      "title": "Define the tax question",
+      "text": "Identify the person or entity involved, jurisdiction, tax period, and proposed or completed event. Clarify whether the question concerns a plan, transaction, estate, or an existing notice."
+    },
+    {
+      "title": "Collect the relevant record",
+      "text": "Gather ownership documents, agreements, prior returns or elections where relevant, valuations, and communications. Identify missing facts before evaluating possible consequences."
+    },
+    {
+      "title": "Consider alternatives with the wider legal matter",
+      "text": "Review available approaches and their implications for business, property, or estate objectives. Coordinate with accounting professionals as appropriate; an anticipated tax benefit should be tested against the full arrangement."
+    },
+    {
+      "title": "Document the decision and identify follow-through",
+      "text": "Confirm the agreed legal work and who is responsible for related filings, implementation, and further review. A change in facts or law may require the analysis to be revisited before action is taken."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "When should tax counsel be involved in a transaction?",
+      "answer": "Before the structure and documents become binding, where possible. Earlier review allows tax questions to inform the transaction instead of being addressed only after closing. If a transaction has already occurred, provide the final documents and chronology so the existing position can be assessed."
+    },
+    {
+      "question": "Does an LLC always have the same federal tax treatment?",
+      "answer": "No. Federal classification can depend on the number of owners and applicable elections. An LLC is a legal structure under state law, not a complete statement of its federal tax treatment. Review the actual classification and any proposed election with the relevant advisers."
+    },
+    {
+      "question": "Are federal and New Jersey tax requirements interchangeable?",
+      "answer": "No. A federal conclusion does not settle every state question. Identify the applicable jurisdiction, tax type, and reporting period. State requirements should be evaluated separately where relevant to the business activity, property, or transfer."
+    },
+    {
+      "question": "Does a gift automatically create an immediate tax payment?",
+      "answer": "Not necessarily. Reporting requirements and whether tax is payable are separate questions, and the answer depends on the gift and applicable rules. Avoid relying on a remembered threshold; review current requirements, prior transfers, value, and the circumstances before acting."
+    },
+    {
+      "question": "How does a tax attorney’s role differ from an accountant’s?",
+      "answer": "The roles can overlap but serve different needs. Counsel may analyze legal consequences and transaction documents, while an accountant may address financial reporting, calculations, or return preparation within the agreed engagement. Confirm each adviser’s responsibilities rather than assuming either is handling every task."
+    },
+    {
+      "question": "Is a property assessment appeal handled as a general tax question?",
+      "answer": "A challenge to a New Jersey real property assessment follows its own valuation and procedural framework. The firm maintains a separate real property tax appeals practice. Review that guide and contact the firm promptly about an assessment notice so the correct process can be identified."
+    }
+  ],
+  "related": [
+    "corporate-law",
+    "estate-planning-and-administration",
+    "real-property-tax-appeals"
+  ],
+  "sources": [
+    {
+      "label": "IRS: business structures",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/business-structures"
+    },
+    {
+      "label": "IRS: LLC classifications",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/limited-liability-company-llc"
+    },
+    {
+      "label": "IRS: estate and gift taxes",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/estate-and-gift-taxes"
+    },
+    {
+      "label": "New Jersey Division of Taxation: inheritance and estate tax",
+      "url": "https://www.nj.gov/treasury/taxation/inheritance-estate/inheritance.shtml"
+    }
+  ],
+  "reviewStatus": "Attorney review required before publication"
+}

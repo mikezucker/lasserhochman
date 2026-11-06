@@ -1,0 +1,116 @@
+{
+  "introduction": [
+    "Business law provides the framework for how an enterprise is owned, managed, financed, and operated. Documents that seem routine when a business begins can become important when an owner leaves, a lender requires security, or a commercial relationship changes. Clear agreements help translate the owners’ expectations into responsibilities that can be understood and applied.",
+    "For a New Jersey company, corporate decisions often overlap with employment, real estate, financing, and tax considerations. A structure suitable for one business may not fit another. Thoughtful legal review considers the owners’ goals, the enterprise’s operations, the allocation of risk, and the practical consequences of the proposed arrangement."
+  ],
+  "concepts": [
+    {
+      "title": "The entity and the people behind it",
+      "text": "A corporation, partnership, or limited liability company provides a framework for ownership and decision-making. The rights and responsibilities of the business and its owners are not interchangeable. Formation documents, governance agreements, contracts, and personal guarantees should be read together to understand who may act and who bears particular obligations."
+    },
+    {
+      "title": "Governance is an ongoing responsibility",
+      "text": "Governance concerns how decisions are made, recorded, and implemented. A written agreement can address management authority, contributions, distributions, and transfers of ownership. Addressing these questions before a disagreement arises helps the parties identify their expectations and reduces reliance on informal understandings."
+    }
+  ],
+  "services": [
+    {
+      "title": "Corporate and business law",
+      "text": "Business counsel involves evaluating the legal arrangements that support an enterprise’s activities. Reviewing commercial agreements and ownership responsibilities may be appropriate when starting a business relationship, changing the way a company operates, or documenting a significant decision. The scope should reflect the particular business rather than a standard form alone."
+    },
+    {
+      "title": "Corporations, partnerships, and limited liability companies",
+      "text": "Selecting and documenting an ownership structure requires attention to management, liability, economic rights, and future changes. Legal form and tax treatment involve related but distinct questions. Owners may need representation when establishing an entity, updating governance documents, or considering a transfer of an ownership interest."
+    },
+    {
+      "title": "Commercial and banking transactions",
+      "text": "Commercial agreements and financing documents establish payment, performance, collateral, and default obligations. A business or institutional party may need counsel to review authority to sign, guarantees, covenants, and the interaction among transaction documents. The commercial terms should remain clear throughout negotiation and closing."
+    },
+    {
+      "title": "Employment law",
+      "text": "Workplace decisions and agreements can create legal obligations for a business. Legal review may be appropriate when employment-related questions affect operations or a contractual relationship. The particular issue, documents, and requested advice should be discussed with the firm before the scope of representation is established."
+    },
+    {
+      "title": "Bankruptcy",
+      "text": "Financial distress can affect contracts, lending arrangements, and relationships with creditors. Bankruptcy is a federal legal process with consequences that differ from an informal business workout. A company or creditor facing distress may need an assessment of its position and the available legal paths; no particular restructuring or result is assured."
+    }
+  ],
+  "scenarios": [
+    {
+      "title": "Co-owners formalize how their business will operate",
+      "text": "Two owners have agreed on their initial investment but have not addressed management authority, future contributions, or an owner’s departure. Reviewing the governance arrangement can help them identify decisions that should be documented before operations expand."
+    },
+    {
+      "title": "A company reviews a commercial loan",
+      "text": "A growing business receives financing documents containing collateral provisions, covenants, and personal guarantees. Counsel can help the parties understand the proposed obligations and whether the company has taken the necessary steps to authorize the transaction."
+    },
+    {
+      "title": "A business relationship changes under financial pressure",
+      "text": "A commercial counterparty is missing payments and asks to modify an agreement. The business may need to assess its contract rights, the proposed changes, and the possibility of insolvency before committing to a revised arrangement."
+    }
+  ],
+  "process": [
+    {
+      "title": "Understand the business and the decision",
+      "text": "Identify the owners, operations, existing documents, and intended result. Clarify who the client is and whether another party needs separate counsel."
+    },
+    {
+      "title": "Evaluate structure and obligations",
+      "text": "Consider governance, authority, transaction terms, and relevant tax or regulatory questions. Coordinate with accountants and other advisers where their input is needed."
+    },
+    {
+      "title": "Prepare and negotiate documents",
+      "text": "Draft or review the relevant agreements and approvals. Resolve differences in expectations and confirm how the documents allocate responsibilities and risk."
+    },
+    {
+      "title": "Implement and revisit",
+      "text": "Complete agreed filings, approvals, and closing steps. Retain records and revisit the arrangement when ownership, financing, operations, or applicable requirements change."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I choose an LLC or a corporation in New Jersey?",
+      "answer": "The answer depends on ownership, management, liability considerations, financing plans, and tax treatment. No single form is best for every business. Review the legal and tax implications together, rather than selecting solely on the basis of a filing fee or an online comparison."
+    },
+    {
+      "question": "Is forming a business the same as registering it for taxes?",
+      "answer": "No. New Jersey distinguishes entity formation or authorization from tax and employer registration. The steps needed depend on the business structure and activities. Completing a formation filing does not, by itself, resolve all registration or operational requirements."
+    },
+    {
+      "question": "Why do owners need a written operating or shareholder agreement?",
+      "answer": "The agreement can address decision-making, economic rights, transfers, and what happens when an owner leaves or a disagreement occurs. It gives the owners a chance to resolve expectations deliberately. Which provisions are appropriate depends on the entity and the owners’ circumstances."
+    },
+    {
+      "question": "Does an LLC eliminate personal responsibility for every business obligation?",
+      "answer": "Do not assume that it does. A personal guarantee or an obligation undertaken individually may create exposure separate from the entity’s obligations. Other exceptions can depend on the facts and law. Review the actual documents and conduct rather than relying on the entity’s name."
+    },
+    {
+      "question": "Can the same lawyer represent the company and every owner?",
+      "answer": "The interests of an entity and its owners may differ. Counsel must identify the client and evaluate potential conflicts before agreeing to representation. An owner may need independent advice, particularly where ownership rights or obligations are being negotiated."
+    },
+    {
+      "question": "What information should I prepare before discussing a business matter?",
+      "answer": "Gather formation documents, ownership and management agreements, relevant contracts, financing terms, and any notices or proposed changes. Identify the decision-makers and business goals, and explain important deadlines. This helps define the issue and the appropriate scope of legal work."
+    }
+  ],
+  "related": ["taxation", "litigation", "real-estate"],
+  "sources": [
+    {
+      "label": "New Jersey Division of Revenue: formation and registration",
+      "url": "https://nj.gov/treasury/revenue/gettingregistered.shtml"
+    },
+    {
+      "label": "IRS: business structures",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/business-structures"
+    },
+    {
+      "label": "IRS: limited liability companies",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/limited-liability-company-llc"
+    },
+    {
+      "label": "United States Courts: Bankruptcy Basics",
+      "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics"
+    }
+  ],
+  "reviewStatus": "Attorney review required before publication"
+}

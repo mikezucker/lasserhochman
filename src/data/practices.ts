@@ -1,5 +1,7 @@
+import type { PracticeSlug } from "./practice-guides";
+
 export type Practice = {
-  slug: string;
+  slug: PracticeSlug;
   name: string;
   short: string;
   description: string;

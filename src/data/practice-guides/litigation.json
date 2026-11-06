@@ -1,0 +1,116 @@
+{
+  "introduction": [
+    "A legal dispute can interrupt business operations, threaten an investment, or place an important relationship under strain. Litigation provides a formal way to resolve disagreements when negotiation is insufficient, but the decision to bring or defend a claim involves more than assessing who is right. Evidence, remedies, cost, timing, and the ability to enforce a result all matter.",
+    "For a New Jersey business, property owner, institution, or individual, the first task is to understand the dispute and preserve available options. A contract may require notice, a particular forum, or arbitration. A court filing may create immediate response obligations. An informed approach considers the legal position alongside the practical purpose of resolving the matter."
+  ],
+  "concepts": [
+    {
+      "title": "Claims, defenses, and remedies",
+      "text": "A claim identifies a legal wrong and the relief sought; a defense explains why the opposing party should not receive that relief. A remedy may involve money or, where legally available, an order requiring or preventing particular conduct. The desired business outcome should be considered separately from what a court has authority to award."
+    },
+    {
+      "title": "Negotiation, mediation, and adjudication",
+      "text": "A negotiated resolution is agreed by the parties. Mediation uses a neutral person to help them explore agreement, while a judge or arbitrator decides contested issues in an adjudicative proceeding. The appropriate path depends on the governing documents, applicable rules, and the dispute. Settlement discussions do not necessarily suspend court deadlines."
+    }
+  ],
+  "services": [
+    {
+      "title": "Trials and appeals",
+      "text": "Trial work involves developing the factual record and presenting admissible evidence and legal arguments. Appeals generally concern review of a decision under the applicable standards, rather than a fresh trial. Counsel may be needed to evaluate litigation strategy, preserve issues, or assess whether further review is available."
+    },
+    {
+      "title": "Commercial disputes",
+      "text": "Business disagreements may concern contractual performance, payment, ownership interests, or property-related obligations. Legal review examines the agreements, communications, financial record, and available remedies. Representation may be appropriate before a demand is sent, when a dispute escalates, or after a claim is served."
+    },
+    {
+      "title": "Foreclosure matters",
+      "text": "A default involving real estate security can raise questions about loan documents, notices, defenses, collateral, and possible resolution. The appropriate course depends on the loan, property, and procedural posture. Early review may be useful when a default notice arrives or a party is considering enforcement or a workout."
+    },
+    {
+      "title": "Employment disputes",
+      "text": "Employment-related litigation may involve competing accounts of workplace events and the interpretation of agreements or legal obligations. Preserving relevant records and identifying applicable procedures are important early tasks. The particular issue and parties should be discussed with the firm to determine the scope of a possible engagement."
+    },
+    {
+      "title": "Bankruptcy and creditors’ rights",
+      "text": "A bankruptcy filing can alter how a creditor may pursue payment and require participation in a separate federal proceeding. Counsel can assess notices, claim documentation, and procedural requirements. Continuing ordinary collection activity without reviewing the effect of a filing can create additional problems."
+    },
+    {
+      "title": "Environmental disputes",
+      "text": "Environmental litigation can arise where property conditions and responsibility for those conditions are contested. It may require coordination between legal and technical analysis. A property-related demand, regulatory proceeding, or dispute over contractual responsibility should be reviewed in light of its specific facts and applicable law."
+    }
+  ],
+  "scenarios": [
+    {
+      "title": "A business disputes contractual performance",
+      "text": "A company says a commercial counterparty failed to meet its obligations; the counterparty contests the scope of the work and amount due. Counsel may review the contract and record to assess potential claims, defenses, and a practical basis for resolution."
+    },
+    {
+      "title": "A lender receives a bankruptcy notice",
+      "text": "A lender pursuing an unpaid obligation learns that the borrower has filed for bankruptcy. Reviewing the notice and loan record promptly helps identify the effect on pending enforcement and the steps needed to protect the creditor’s position."
+    },
+    {
+      "title": "Property conditions become contested",
+      "text": "After a property transaction, the parties disagree over responsibility for an environmental condition. Agreements, disclosures, expert findings, and the timing of events may all affect the analysis. The example illustrates an issue for investigation, not an assumed allocation of liability."
+    }
+  ],
+  "process": [
+    {
+      "title": "Assess the dispute and immediate obligations",
+      "text": "Review the facts, agreements, notices, and response dates. Identify relevant insurance, preserve records, and consider urgent issues before choosing a strategy."
+    },
+    {
+      "title": "Develop claims or defenses",
+      "text": "Determine the appropriate forum and required filings. If a case proceeds, pleadings explain the parties’ positions; early motions may address specific legal or procedural questions."
+    },
+    {
+      "title": "Gather and test the evidence",
+      "text": "Discovery may involve documents, written questions, testimony, and experts. Evaluate the developing record and revisit settlement opportunities as the strengths and limitations become clearer."
+    },
+    {
+      "title": "Resolve the matter and consider next steps",
+      "text": "A matter may end through agreement, a court ruling, or trial. Review implementation, enforcement, and any available appeal options. The route and duration depend on the proceeding; these stages are not a prediction for a particular case."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if my business is served with a lawsuit?",
+      "answer": "Keep the papers and record when and how they were received. Contact counsel promptly so the applicable response obligations can be checked. Preserve relevant documents and electronic communications, and consider whether an insurer or another party must be notified."
+    },
+    {
+      "question": "Does every commercial dispute need a trial?",
+      "answer": "No. Negotiation, mediation, arbitration where applicable, or a ruling before trial may resolve a matter. Whether an alternative is suitable depends on the dispute and governing documents. A willingness to negotiate should be evaluated alongside the need to preserve legal rights."
+    },
+    {
+      "question": "What is discovery in a civil case?",
+      "answer": "Discovery is the formal exchange and development of information relevant to a case. Depending on the rules, it can include documents, written responses, depositions, and expert materials. Counsel helps identify the scope of required responses and address disputes over what must be produced."
+    },
+    {
+      "question": "How long does litigation take?",
+      "answer": "There is no reliable single timetable. Complexity, the court’s schedule, discovery, motion practice, and settlement discussions all affect duration. An initial assessment should distinguish immediate response dates from broader estimates and should be updated as the matter progresses."
+    },
+    {
+      "question": "Is an appeal a chance to try the case again?",
+      "answer": "Generally, an appeal reviews claimed errors using the existing record and applicable standards. It is not ordinarily an opportunity to present a new factual case. Whether a decision can be appealed, and when, requires a separate assessment of the order and procedural rules."
+    },
+    {
+      "question": "What changes when an opposing party files for bankruptcy?",
+      "answer": "A filing may restrict collection and enforcement through the automatic stay, subject to its scope and exceptions. Separate notices and deadlines can apply to creditor participation. Obtain advice about the particular filing before continuing enforcement or assuming an existing lawsuit may proceed."
+    }
+  ],
+  "related": ["real-estate", "corporate-law"],
+  "sources": [
+    {
+      "label": "New Jersey Courts: Civil Division frequently asked questions",
+      "url": "https://www.njcourts.gov/sites/default/files/forms/11347_civil_faq.pdf"
+    },
+    {
+      "label": "New Jersey Courts: resolving civil cases without trial",
+      "url": "https://www.njcourts.gov/sites/default/files/forms/11194_resolve_cases_wo_trial.pdf"
+    },
+    {
+      "label": "United States Courts: Bankruptcy Basics",
+      "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics"
+    }
+  ],
+  "reviewStatus": "Attorney review required before publication"
+}
