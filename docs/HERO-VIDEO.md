@@ -1,16 +1,16 @@
-# Full-screen New Jersey / New York homepage hero
+# Full-screen New Jersey homepage hero
 
-The homepage opening now fills the viewport below the existing header, with the existing headline, supporting copy, and actions over real Hudson waterfront footage. A navy gradient keeps the text readable. This presentation was explicitly approved by the user. The shared header/navigation, typography, lower homepage sections, attorney photo hover effects, interior pages, and SEO code remain unchanged.
+The homepage opening now fills the viewport below the existing header, with the existing headline, supporting copy, and actions over real New Jersey waterfront skyline footage. A navy gradient keeps the text readable. This presentation was explicitly approved by the user. The shared header/navigation, typography, lower homepage sections, attorney photo hover effects, interior pages, and SEO code remain unchanged.
 
 ## Asset and license
 
-- Current clip: `public/videos/hudson-waterfront.mp4`.
-- Current poster: `public/images/hudson-waterfront.jpg`, extracted from the licensed video and delivered with Next.js image optimization.
-- Source: [Drone Footage of New York City, Pexels item 6641647](https://www.pexels.com/video/drone-footage-of-new-york-city-6641647/), by CAPTKHO kho. The source identifies this as a view of New York City from the Jersey waterfront. The footage shows the Hudson and Manhattan skyline with the New Jersey waterfront in the foreground.
-- Original download: https://videos.pexels.com/video-files/6641647/6641647-uhd_3840_2160_30fps.mp4.
-- License reviewed November 5, 2026: [Pexels License](https://www.pexels.com/license/), which permits website use and modification without required attribution. No footage came from another law firm's website.
-- Optimized version: H.264/yuv420p, 1920×1080, 20fps, 18.5 seconds, 2,907,697 bytes (approximately 2.91 MB). No audio. Two-thirds source speed and a short dissolve at the loop boundary; fast-start metadata enables progressive playback.
-- The earlier `architecture.mp4` and `architecture.jpg` remain in the repository as prior-version assets, but the homepage no longer requests them. The original architectural clip's source was Mixkit item 3115, under its Stock Video Free License.
+- Current clip: `public/videos/new-jersey-waterfront.mp4`.
+- Current poster: `public/images/new-jersey-waterfront.jpg`, extracted near the start of the licensed video and delivered through Next.js image optimization.
+- Source: [Hoboken, New Jersey Silhouetted Skyline Sunset 4K, Videezy item 3526](https://www.videezy.com/urban/3526-hoboken-new-jersey-silhouetted-skyline-sunset-4k). The provider identifies the subject as the New Jersey waterfront skyline. The website uses the broad caption “New Jersey waterfront,” rather than asserting a particular municipality. This replaces the previous footage centered on Manhattan.
+- Original: downloaded through the item's official Free Download link, at 3840×2160. The lower-resolution preview was used only during evaluation and is not shipped.
+- License reviewed November 5, 2026: [Videezy Standard License for item 3526](https://www.videezy.com/resources/3526/license_info_modal). It permits personal and commercial use with attribution. The homepage displays the required “Free stock footage by Videezy” credit and links to Videezy. Retain this credit while using the free license.
+- Optimized version: H.264/yuv420p, 1920×1080, 20fps, 14.5 seconds, 2,665,149 bytes (approximately 2.67 MB). No audio. Two-thirds source speed and a short dissolve at the loop boundary; fast-start metadata enables progressive playback.
+- Earlier Manhattan/Pexels and generic architecture/Mixkit footage remains in the repository for prior-version reference but is no longer requested by the homepage. No footage came from another law firm's website.
 
 ## Behavior
 
@@ -29,4 +29,4 @@ Replace the local footage/poster paths in the component for future approved asse
 
 ## Validation
 
-TypeScript, ESLint, and Next.js production build pass. The existing route checks and indexing tests pass. Safari desktop review confirms the full-screen layout and autoplay. The prior component's desktop/mobile playback and pause/play behavior was manually verified; the current version retains that lifecycle. OS preference emulation, power-saving modes, cross-browser testing, and Lighthouse measurements were not performed. The approved page intentionally remains noindex.
+TypeScript, ESLint, and Next.js production build pass. The existing route checks and indexing tests pass. Safari desktop review confirms the New Jersey footage, full-screen layout, autoplay, readable gold headline, and on-page license credit. The prior component's desktop/mobile playback and pause/play behavior was manually verified; the current version retains that lifecycle. OS preference emulation, power-saving modes, cross-browser testing, and Lighthouse measurements were not performed. The approved page intentionally remains noindex.

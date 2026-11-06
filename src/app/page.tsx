@@ -46,7 +46,10 @@ export default function Home() {
           </div>
         </div>
         <p className={heroStyles.location}>
-          Hudson River · New Jersey / New York
+          New Jersey waterfront
+          <span className={heroStyles.credit}>
+            Free stock footage by <a href="https://www.videezy.com">Videezy</a>
+          </span>
         </p>
         <div className={`hero-baseline ${heroStyles.baseline}`}>
           <span>Rooted in New Jersey. Focused on you.</span>

@@ -5,8 +5,8 @@ import { Pause, Play } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import styles from "./hero-video.module.css";
 
-const videoSource = "/videos/hudson-waterfront.mp4";
-const poster = "/images/hudson-waterfront.jpg";
+const videoSource = "/videos/new-jersey-waterfront.mp4";
+const poster = "/images/new-jersey-waterfront.jpg";
 const optimizedPoster = getImageProps({
   src: poster,
   alt: "",
@@ -120,7 +120,7 @@ export function HeroVideo() {
       <Image
         className={styles.poster}
         src={poster}
-        alt="Manhattan skyline across the Hudson River, viewed from the New Jersey waterfront"
+        alt="New Jersey waterfront skyline silhouetted against the setting sun"
         fill
         preload
         sizes="100vw"
