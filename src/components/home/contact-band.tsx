@@ -1,3 +1,4 @@
+import { DirectionsLink } from "@/components/ui/directions-link";
 import { MapPin, MessageSquare, Phone } from "lucide-react";
 import styles from "./contact-band.module.css";
 import { firm } from "@/data/firm";
@@ -38,11 +39,11 @@ export function ContactBand({ showIcons = false }: { showIcons?: boolean }) {
                 focusable="false"
               />
             )}
-            <span>
+            <DirectionsLink>
               {firm.street}
               <br />
               {firm.city}
-            </span>
+            </DirectionsLink>
           </address>
           <a
             className={`contact-phone${showIcons ? ` ${styles.phone}` : ""}`}
@@ -59,15 +60,9 @@ export function ContactBand({ showIcons = false }: { showIcons?: boolean }) {
             )}
             {firm.phone}
           </a>
-          <a
-            className="text-link"
-            href={firm.directions}
-            target="_blank"
-            rel="noreferrer"
-          >
+          <DirectionsLink className="text-link">
             Get directions <span aria-hidden="true">↗</span>
-            <span className="sr-only"> (opens a new tab)</span>
-          </a>
+          </DirectionsLink>
         </div>
       </div>
     </section>

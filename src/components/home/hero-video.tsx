@@ -1,7 +1,6 @@
 "use client";
 
 import Image, { getImageProps } from "next/image";
-import { Pause, Play } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import styles from "./hero-video.module.css";
 
@@ -19,9 +18,7 @@ type Connection = EventTarget & { saveData?: boolean };
 
 export function HeroVideo() {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const userPaused = useRef(false);
   const [ready, setReady] = useState(false);
-  const [paused, setPaused] = useState(true);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -49,24 +46,24 @@ export function HeroVideo() {
         }
         return;
       }
-      if (
-        !idle ||
-        !visible ||
-        document.hidden ||
-        userPaused.current ||
-        failed
-      ) {
+      if (!idle || !visible || document.hidden || failed) {
         video.pause();
         return;
       }
       if (!video.hasAttribute("src")) {
+        // Set both the default attribute and live properties before attaching
+        // a source so Safari evaluates a silent, inline video from the start.
+        video.defaultMuted = true;
         video.muted = true;
+        video.playsInline = true;
         video.src = videoSource;
         video.load();
       }
       // Autoplay can be denied by browser policy or Low Power Mode. Keep the
       // photograph visible unless actual playback starts; never show an error.
-      void video.play().catch(() => {});
+      void video.play().catch(() => {
+        if (!disposed && video.paused) setReady(false);
+      });
     };
     const deferPlayback = () => {
       if (typeof window.requestIdleCallback === "function") {
@@ -96,8 +93,9 @@ export function HeroVideo() {
     connection?.addEventListener("change", syncPlayback);
     document.addEventListener("visibilitychange", syncPlayback);
     video.addEventListener("error", onError);
-    if (document.readyState === "complete") deferPlayback();
-    else window.addEventListener("load", deferPlayback, { once: true });
+    // Do not wait for window.load: slow fonts/images on mobile must not
+    // prevent the visible hero from ever receiving its source.
+    deferPlayback();
 
     return () => {
       disposed = true;
@@ -105,7 +103,6 @@ export function HeroVideo() {
       motion.removeEventListener("change", syncPlayback);
       connection?.removeEventListener("change", syncPlayback);
       document.removeEventListener("visibilitychange", syncPlayback);
-      window.removeEventListener("load", deferPlayback);
       video.removeEventListener("error", onError);
       if (idleHandle !== undefined) window.cancelIdleCallback(idleHandle);
       if (timer !== undefined) window.clearTimeout(timer);
@@ -117,7 +114,7 @@ export function HeroVideo() {
 
   return (
     <>
-      <div className={styles.posterFrame}>
+      <div className={`${styles.posterFrame} ${ready ? styles.ready : ""}`}>
         <Image
           className={styles.poster}
           src={poster}
@@ -130,7 +127,7 @@ export function HeroVideo() {
       </div>
       <video
         ref={videoRef}
-        className={`${styles.video} ${ready ? styles.ready : ""}`}
+        className={styles.video}
         autoPlay
         muted
         loop
@@ -142,39 +139,11 @@ export function HeroVideo() {
         disablePictureInPicture
         onPlaying={() => {
           setReady(true);
-          setPaused(false);
         }}
-        onPause={() => setPaused(true)}
+        onPause={() => setReady(false)}
         onEmptied={() => setReady(false)}
         onError={() => setReady(false)}
       />
-      {ready && (
-        <button
-          type="button"
-          className={styles.toggle}
-          aria-label={
-            paused ? "Play architectural video" : "Pause architectural video"
-          }
-          title={paused ? "Play motion" : "Pause motion"}
-          onClick={() => {
-            const video = videoRef.current;
-            if (!video) return;
-            if (video.paused) {
-              userPaused.current = false;
-              void video.play().catch(() => {});
-            } else {
-              userPaused.current = true;
-              video.pause();
-            }
-          }}
-        >
-          {paused ? (
-            <Play size={15} aria-hidden="true" />
-          ) : (
-            <Pause size={15} aria-hidden="true" />
-          )}
-        </button>
-      )}
     </>
   );
 }

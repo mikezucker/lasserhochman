@@ -1,3 +1,4 @@
+import { DirectionsLink } from "@/components/ui/directions-link";
 import { MapPin, Phone, Printer } from "lucide-react";
 import styles from "./contact.module.css";
 import { ContactForm } from "@/components/contact/contact-form";
@@ -31,11 +32,11 @@ export default function Contact() {
               aria-hidden="true"
               focusable="false"
             />
-            <span>
+            <DirectionsLink>
               {firm.street}
               <br />
               {firm.city}
-            </span>
+            </DirectionsLink>
           </address>
           <dl>
             <dt className={styles.label}>
@@ -63,15 +64,9 @@ export default function Contact() {
             </dt>
             <dd>{firm.fax}</dd>
           </dl>
-          <a
-            className="button"
-            href={firm.directions}
-            target="_blank"
-            rel="noreferrer"
-          >
+          <DirectionsLink className="button">
             Get directions<span aria-hidden="true">↗</span>
-            <span className="sr-only"> (opens a new tab)</span>
-          </a>
+          </DirectionsLink>
           <p style={{ marginTop: 30, fontSize: 13 }}>
             Looking for a particular attorney?
           </p>

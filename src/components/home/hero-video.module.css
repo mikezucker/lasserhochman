@@ -1,7 +1,12 @@
 .posterFrame {
-  position: relative;
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
+  z-index: -2;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 800ms ease;
 }
 
 .poster {
@@ -19,36 +24,13 @@
   object-fit: cover;
   object-position: 54% 32%;
   filter: saturate(0.45);
-  opacity: 0;
-  transition: opacity 800ms ease;
   pointer-events: none;
-  z-index: -2;
+  z-index: -3;
 }
 
+/* Keep the video visible to Safari; fade the poster only after playing. */
 .ready {
-  opacity: 1;
-}
-
-.toggle {
-  position: absolute;
-  right: max(56px, calc((100% - 1280px) / 2));
-  bottom: 145px;
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  border: 1px solid rgb(255 255 255 / 35%);
-  background: rgb(8 24 39 / 65%);
-  color: #fff;
-  cursor: pointer;
-  pointer-events: auto;
-  z-index: 3;
-}
-
-@media (max-width: 1150px) {
-  .toggle {
-    right: 36px;
-  }
+  opacity: 0;
 }
 
 @media (max-width: 700px) {
@@ -56,16 +38,14 @@
   .poster {
     object-position: 56% 28%;
   }
-  .toggle {
-    right: 20px;
-    bottom: 87px;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .video,
-  .toggle {
+  .video {
     display: none;
+  }
+  .posterFrame {
+    opacity: 1;
     transition: none;
   }
 }
