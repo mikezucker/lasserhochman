@@ -1,6 +1,6 @@
 .panel {
   padding: 40px;
-  background: #f0f1ee;
+  background: var(--surface);
 }
 
 .panel :global(.eyebrow) {
@@ -67,7 +67,7 @@
   width: 100%;
   min-height: 46px;
   padding: 11px 12px;
-  border: 1px solid #aeb5b9;
+  border: 1px solid var(--input-line);
   border-radius: 0;
   background: var(--warm);
   color: var(--charcoal);

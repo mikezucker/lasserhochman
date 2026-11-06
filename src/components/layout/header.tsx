@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { ThemeToggle } from "./theme-toggle";
 import { firm, navigation } from "@/data/firm";
 export function Header() {
   const pathname = usePathname();
@@ -97,6 +98,7 @@ export function Header() {
           <Phone size={14} strokeWidth={1.5} aria-hidden="true" />
           <span>{firm.phone}</span>
         </a>
+        <ThemeToggle />
         <button
           ref={toggle}
           className="menu-toggle"
