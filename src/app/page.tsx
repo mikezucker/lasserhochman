@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { FeaturedAttorneys } from "@/components/home/featured-attorneys";
 import { HeroVideo } from "@/components/home/hero-video";
 import heroStyles from "@/components/home/cinematic-hero.module.css";
 import Link from "next/link";
@@ -134,36 +134,14 @@ export default function Home() {
             <TextLink href="/attorneys">Meet all of our attorneys</TextLink>
           </div>
         </Reveal>
-        <div className="featured-attorneys">
-          {["zucker", "kipnees", "shore"].map((slug) => {
-            const a = attorneys.find((a) => a.slug === slug)!;
-            return (
-              <Reveal key={a.slug}>
-                <Link href={`/${a.slug}`} className="attorney-preview">
-                  <div className="portrait">
-                    <Image
-                      src={a.image}
-                      alt={a.name}
-                      fill
-                      sizes="(max-width: 600px) 85vw, 30vw"
-                    />
-                  </div>
-                  <div className="attorney-caption">
-                    <div>
-                      <h3>{a.name}</h3>
-                      <p>{a.position}</p>
-                    </div>
-                    <ArrowUpRight
-                      size={20}
-                      strokeWidth={1.5}
-                      aria-hidden="true"
-                    />
-                  </div>
-                </Link>
-              </Reveal>
-            );
-          })}
-        </div>
+        <FeaturedAttorneys
+          roster={attorneys.map(({ slug, name, image, position }) => ({
+            slug,
+            name,
+            image,
+            position,
+          }))}
+        />
       </section>
       <section className="history-section">
         <div className="wrap history-grid">
