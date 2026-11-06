@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { HeroVideo } from "@/components/home/hero-video";
+import heroStyles from "@/components/home/cinematic-hero.module.css";
 import Link from "next/link";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
 import { metadata as buildMetadata } from "@/lib/seo";
@@ -16,8 +17,14 @@ export const metadata = buildMetadata(
 export default function Home() {
   return (
     <>
-      <section className="hero wrap" aria-labelledby="hero-heading">
-        <div className="hero-copy">
+      <section
+        className={`hero ${heroStyles.hero}`}
+        aria-labelledby="hero-heading"
+      >
+        <div className={heroStyles.media}>
+          <HeroVideo />
+        </div>
+        <div className={`hero-copy ${heroStyles.copy}`}>
           <p className="eyebrow hero-kicker">
             <span />
             Serving New Jersey since 1954
@@ -38,21 +45,10 @@ export default function Home() {
             <TextLink href="/attorneys">Meet Our Attorneys</TextLink>
           </div>
         </div>
-        <div className="hero-visual">
-          <div className="hero-image">
-            <HeroVideo />
-          </div>
-          <div className="image-note">
-            <span>
-              A considered approach.
-              <br />A lasting perspective.
-            </span>
-            <span className="image-mark" aria-hidden="true">
-              LH
-            </span>
-          </div>
-        </div>
-        <div className="hero-baseline">
+        <p className={heroStyles.location}>
+          Hudson River · New Jersey / New York
+        </p>
+        <div className={`hero-baseline ${heroStyles.baseline}`}>
           <span>Rooted in New Jersey. Focused on you.</span>
           <a href="#our-firm" aria-label="Discover our firm">
             <span>Discover our firm</span>

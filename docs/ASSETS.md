@@ -5,3 +5,5 @@
 - `source-aboutus.jpg`: existing `/images/aboutus.jpg`, architectural artwork visibly signed Aaron Lasser, 1959. Original source: https://www.lasserhochman.com/about. Used only in the firm history page; rights confirmation remains a prelaunch item.
 - Newsreader (regular/italic variable) and Manrope (variable): Google Fonts official repository, `ofl/newsreader` and `ofl/manrope`. SIL Open Font License texts are included in `public/fonts/`. Latin subsets are compressed to WOFF2, with the Newsreader optical size fixed at 48 and variable weights retained. Served locally by `next/font/local`; no runtime Google Fonts calls.
 - Open Graph graphic and favicon are original code-generated typography, with no external asset dependency.
+
+- `public/videos/hudson-waterfront.mp4` and `public/images/hudson-waterfront.jpg`: current full-screen hero media, derived from CAPTKHO kho's [Pexels video 6641647](https://www.pexels.com/video/drone-footage-of-new-york-city-6641647/). Real footage from the Jersey waterfront looking toward Manhattan, used under the [Pexels License](https://www.pexels.com/license/). Encoding and provenance details are in `HERO-VIDEO.md`.

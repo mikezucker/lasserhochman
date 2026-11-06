@@ -1,0 +1,123 @@
+.hero {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100svh - 110px);
+  background: #081827;
+  color: #fff;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.media {
+  position: absolute;
+  inset: 0;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      90deg,
+      rgb(8 24 39 / 86%) 0%,
+      rgb(8 24 39 / 65%) 36%,
+      rgb(8 24 39 / 20%) 75%
+    ),
+    linear-gradient(0deg, rgb(8 24 39 / 70%), transparent 30%);
+}
+
+.copy {
+  width: min(1280px, calc(100% - 112px));
+  margin: auto;
+  padding: 70px 0 140px;
+}
+
+.copy :global(.hero-kicker) {
+  color: #e0e4e6;
+}
+
+.copy :global(.hero-description) {
+  color: #e0e4e6;
+}
+
+.copy :global(.hero-actions .text-link) {
+  color: #fff;
+  border-color: #b6babd;
+}
+
+.copy :global(.hero-actions .button) {
+  border: 1px solid rgb(255 255 255 / 45%);
+}
+
+.baseline {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1280px, calc(100% - 112px));
+  margin-top: 0;
+  color: #e0e4e6;
+  border-top: 1px solid rgb(255 255 255 / 25%);
+  border-bottom: 0;
+}
+
+.location {
+  position: absolute;
+  right: max(56px, calc((100% - 1280px) / 2));
+  bottom: 110px;
+  color: #e0e4e6;
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1150px) {
+  .copy,
+  .baseline {
+    width: calc(100% - 72px);
+  }
+  .location {
+    right: 36px;
+  }
+}
+
+@media (max-width: 959px) {
+  .hero {
+    min-height: calc(100svh - 88px);
+  }
+  .copy {
+    padding-block: 65px 130px;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero {
+    min-height: calc(100svh - 82px);
+  }
+  .copy,
+  .baseline {
+    width: calc(100% - 40px);
+  }
+  .copy {
+    padding-block: 50px 135px;
+  }
+  .hero::before {
+    background:
+      linear-gradient(90deg, rgb(8 24 39 / 80%), rgb(8 24 39 / 45%)),
+      linear-gradient(0deg, rgb(8 24 39 / 75%), transparent 55%);
+  }
+  .location {
+    right: auto;
+    left: 20px;
+    bottom: 93px;
+    font-size: 8px;
+    letter-spacing: 0.08em;
+  }
+}
