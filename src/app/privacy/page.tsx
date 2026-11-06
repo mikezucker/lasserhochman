@@ -27,8 +27,9 @@ export default function Privacy() {
           <h2>About this prototype</h2>
           <p>
             This prototype provides information about Lasser Hochman and its
-            attorneys. It does not include an online inquiry form, accounts,
-            advertising scripts, or analytics configured by the application.
+            attorneys. Its contact page includes a prototype form that validates
+            entries locally but does not send or save them. The application does
+            not include accounts, advertising scripts, or analytics.
           </p>
           <h3>Technical information</h3>
           <p>

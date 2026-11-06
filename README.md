@@ -1,6 +1,6 @@
 # Lasser Hochman — Phase 1 website
 
-A Vercel-ready Next.js 16.4 App Router application using TypeScript, Tailwind CSS 4, locally hosted Newsreader/Manrope fonts, and Motion for the mobile navigation. Server-rendered content, static public pages, no database, secrets, accounts, CMS, or contact submission endpoint.
+A Vercel-ready Next.js 16.4 App Router application using TypeScript, Tailwind CSS 4, locally hosted Newsreader/Manrope fonts, and Motion for the mobile navigation. Server-rendered content, static public pages, no database, secrets, accounts, CMS, or contact submission endpoint. The contact page includes a clearly labeled prototype form with local validation; it does not send or store entries.
 
 ## Local development
 

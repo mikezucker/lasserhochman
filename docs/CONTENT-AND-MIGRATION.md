@@ -11,7 +11,7 @@ Reviewed November 5, 2026. Primary source: https://www.lasserhochman.com/ and it
 | `/about`      | `/about`              | Preserve firm history                                |
 | `/attorneys`  | `/attorneys`          | Preserve directory                                   |
 | `/practice`   | `/practice`           | Preserve service overview                            |
-| `/contact`    | `/contact`            | Preserve contact details; no submission form         |
+| `/contact`    | `/contact`            | Preserve contact details; prototype form only        |
 | `/guryan`     | `/guryan`             | Preserve Sheppard A. Guryan profile                  |
 | `/zucker`     | `/zucker`             | Preserve Richard L. Zucker profile                   |
 | `/silver`     | `/silver`             | Preserve David Silver profile                        |

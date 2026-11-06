@@ -1,3 +1,4 @@
+import { ContactForm } from "@/components/contact/contact-form";
 import Link from "next/link";
 import { PageHeading } from "@/components/ui/page-heading";
 import { firm } from "@/data/firm";
@@ -42,23 +43,14 @@ export default function Contact() {
             Get directions<span aria-hidden="true">↗</span>
             <span className="sr-only"> (opens a new tab)</span>
           </a>
-        </div>
-        <aside className="contact-note">
-          <p className="eyebrow">Your first conversation</p>
-          <h2>
-            Personal attention
-            <br />
-            starts here.
-          </h2>
-          <p>
-            To discuss a legal matter, please telephone our office. If you would
-            like to contact a particular attorney, their direct email link is
-            available on their profile.
+          <p style={{ marginTop: 30, fontSize: 13 }}>
+            Looking for a particular attorney?
           </p>
           <Link className="text-link" href="/attorneys">
             Find an attorney<span aria-hidden="true">↗</span>
           </Link>
-        </aside>
+        </div>
+        <ContactForm />
       </section>
     </>
   );
